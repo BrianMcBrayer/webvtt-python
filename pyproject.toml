@@ -12,6 +12,22 @@ description = "Python WebVTT API Implementation"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+license = "MIT"
+keywords = ["webvtt", "subtitles", "captions"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Text Processing :: Markup"
+]
+
+[project.urls]
+Homepage = "https://github.com/BrianMcBrayer/webvtt-python"
+Repository = "https://github.com/BrianMcBrayer/webvtt-python"
+Issues = "https://github.com/BrianMcBrayer/webvtt-python/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/webvtt_python"]
