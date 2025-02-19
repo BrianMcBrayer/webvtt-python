@@ -38,6 +38,9 @@ jobs:
   publish:
     needs: test
     runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/webvtt-python
     if: github.event_name == 'release' && github.event.action == 'published'
 
     steps:
@@ -54,8 +57,6 @@ jobs:
       with:
         python-version-file: ".python-version"
     - name: Build and publish
-      env:
-        PYPI_API_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
       run: |
         uv build
         uv publish
