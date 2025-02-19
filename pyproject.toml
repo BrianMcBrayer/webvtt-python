@@ -10,7 +10,7 @@ authors = [
 ]
 description = "Python WebVTT API Implementation"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.8,<3.14"
 dependencies = []
 license = "MIT"
 keywords = ["webvtt", "subtitles", "captions"]
@@ -19,6 +19,11 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Topic :: Multimedia :: Video",
     "Topic :: Text Processing :: Markup"
