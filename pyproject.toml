@@ -20,10 +20,10 @@ packages = ["src/webvtt_python"]
 dev = [
     "pytest>=8.0.0",
     "pytest-cov>=6.0.0",
-    "hypothesis>=6.0.0",
     "ruff>=0.3.0",
     "psutil>=7.0.0",
     "pre-commit>=4.1.0",
+    "hypothesis>=6.0.0"
 ]
 
 [tool.ruff]
