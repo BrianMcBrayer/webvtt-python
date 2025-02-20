@@ -203,9 +203,11 @@ uv run pytest tests/ -v
 ```
 
 ## License
-MIT License
+
+This software is licensed under the MIT License (MIT). See [LICENSE.md](LICENSE.md) for details.
 
 ## Contributing
+
 Contributions welcome! Please open an issue first to discuss proposed changes.
 
 ## Acknowledgments
